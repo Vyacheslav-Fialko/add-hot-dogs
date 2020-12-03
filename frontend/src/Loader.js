@@ -1,0 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
+import React from 'react';
+
+export default () => <div style={{ display: 'flex', justifyContent: 'center', margin: '1,5rem' }}><div className='lds-dual-ring'></div></div>

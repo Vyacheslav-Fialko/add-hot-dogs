@@ -1,0 +1,10 @@
+{
+  "production": {
+    "username": "ddameowovpwpgz",
+    "password": "2856fef30fa4d831cd3ce4c79dc71b00176d145febdf48245cacb2a78eddd699",
+    "database": "d5lba05geilg7",
+    "host": "ec2-75-101-212-64.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "use_env_variable": "DATABASE_URL"
+  }
+}

@@ -1,0 +1,51 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    padding: 1rem;
+    background-color: rgba(3, 3, 3, 0.6);
+}
+
+.modal__body{
+    width: 300px;
+    padding: 2rem;
+    background-color: #fff;
+    margin: auto;
+}
+
+.modal__title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 20px;
+    line-height: 1;
+}
+.modal__input{
+    width: 100%;
+    display: block;
+    padding: .7rem;
+    border:1px solid #808080;
+    margin-bottom: 20px;
+}
+.modal__btn{
+    background-color: #000;
+    color: #fff;
+    padding: .7rem;
+    border-color: blue;
+    cursor: pointer;
+}
+.open-btn{
+    border-color: transparent;
+    font-size: 1.1rem;
+    background-color: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.open-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
